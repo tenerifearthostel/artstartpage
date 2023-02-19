@@ -17,13 +17,13 @@ body {
 	color: #441822;
 	text-align: center;
 	animation-name: fadeInBackground;
-	animation-duration: 2s;
+	animation-duration: 4s;
 	animation-fill-mode: forwards;
 }
 
 @keyframes fadeInBackground {
 	from {
-	  background-color: #ccaabb;
+	  background-color: /*#ccaabb*/ #775566;
 	}
 	to {
 	  background-color: #ffccee; /* final background color */
@@ -43,7 +43,7 @@ body {
 	width: 120px;
     transition: background-color 0.3s ease-in-out;
 	animation-name: fadeInBackground;
-	animation-duration: 2s;
+	animation-duration: 4s;
 	animation-fill-mode: forwards;
   }
 
